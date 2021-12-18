@@ -6,6 +6,7 @@ import Admin from "./pages/admin";
 import Update from "./pages/update";
 import ListUser1 from './pages/listUser1';
 import UpdateEstado from './pages/updateEstado';
+import ListProjects from './pages/listProject';
 
 import "bootswatch/dist/quartz/bootstrap.min.css";
 
@@ -21,6 +22,7 @@ const App = () => {
           <Route path="/update" element={<Update/>} />
           <Route path="/listUser1" element={<ListUser1/>} />
           <Route path="/updateEstado" element={<UpdateEstado/>} />
+          <Route path="/listProject" element={<ListProjects/>} />
         </Routes>
       </div>
     </BrowserRouter>

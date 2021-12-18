@@ -40,6 +40,11 @@ const DASHBOARD = () => {
                   Administrar Usuarios
                 </Link>
               </div>
+              <div className="card-body">
+                <Link to="/listProject" className="btn btn-primary">
+                  Administrar Proyectos
+                </Link>
+              </div>
             </div>
           </div>
         </div>

@@ -28,11 +28,11 @@ const ListUser1 = () => {
           ({ _id, estado, tipo, nombre, identificacion, correo }) => (
             <div key={_id} className="card m-4">
               <div className="card-body"></div>
-              <h4>{nombre}</h4>
-              <p>{identificacion}</p>
-              <p>{correo}</p>
-              <p>{tipo}</p>
-              <p>{estado}</p>
+              <h4>Nombre: {nombre}</h4>
+              <p>Identificación: {identificacion}</p>
+              <p>e-mail: {correo}</p>
+              <p>Tipo de Usuario: {tipo}</p>
+              <p>Estado: {estado}</p>
               <div className="card-body">
                 <button
                   className="btn btn-primary btn-block container p-1"
